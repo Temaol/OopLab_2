@@ -14,7 +14,8 @@ int main()
     cout << "Введіть кількість введеного часу  ";
     cin >> num;
     kilk = new int(num);
-    do{
+    do
+    {
     int h, m, s;
     cout << "Введіть години"<< endl;
     cin >> h;
@@ -47,4 +48,5 @@ int main()
         --num;
     }
     while (num != 0);
+    delete kilk;
 }
